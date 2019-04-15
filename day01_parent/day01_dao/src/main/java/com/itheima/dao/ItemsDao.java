@@ -7,4 +7,6 @@ public interface ItemsDao {
 
     @Select("select * from items where id = #{id}")
     public Items findById(Integer id);
+
+    //奥术大师大所大多奥术大师
 }
